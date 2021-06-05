@@ -1,7 +1,6 @@
 # CustomerManagement REST API
 .NET 5 based customer management web API that responds to Post/Get/Put/Delete requests over REST protocol
 
-This back end app works with a React app in the front end. It uses Microsoft SQL Server to store customer information. 
 
 ## Live Demo at Azure Cloud
 https://customermanagementapi2.azurewebsites.net/
@@ -12,3 +11,14 @@ https://customermanagementapi2.azurewebsites.net/
 - POST Request&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;&nbsp;.../api/customers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;&nbsp;Creates a new customer
 - PUT Request&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;&nbsp;.../api/customers/1 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;&nbsp;Updates a customers with Id = 3
 - DELETE Request&nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;&nbsp;.../api/customers/1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;&nbsp;Deletes a customer with Id = 3
+
+
+## Live Demo with a React web app
+
+- https://mehmetgokcek.github.io/customer-management-react-app/
+
+- React App provides a neat interface to connect to the Customer Management REST API to provide basic CRUD operations on the customer object.
+
+- Customer data persists on an SQL database server.
+
+- Both REST API and SQL Server run on Azure cloud.
