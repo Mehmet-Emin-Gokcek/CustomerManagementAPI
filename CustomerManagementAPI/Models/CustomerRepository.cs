@@ -78,16 +78,15 @@ namespace CustomerManagementAPI.Models
             return null;
         }
 
-        public async Task<IEnumerable<Customer>> Search(string name)
+        public async Task<IEnumerable<Customer>> Search(string searchName)
         {
             IQueryable<Customer> query = context.Customers;
 
-            if (!string.IsNullOrEmpty(name))
+            if (!string.IsNullOrEmpty(searchName))
             {
-                query = query.Where(c => c.Name.ToLower().Contains(name.ToLower()));
+                query = query.Where(c => c.Name.ToLower().Contains(searchName.ToLower()));
 
             }
-
             return await query.ToListAsync();
         }
 

@@ -166,11 +166,12 @@ namespace CustomerManagementAPI.Controllers
 
 
         [HttpGet("{search}")]
-        public async Task<ActionResult<IEnumerable<Customer>>> Search(string name)
+        public async Task<ActionResult<IEnumerable<Customer>>> Search(string search)
         {
+            Console.WriteLine("Search term passed: " + search);
             try
             {
-                var result = await customerRepository.Search(name);
+                var result = await customerRepository.Search(search);
 
                 if (result.Any())
                 {
