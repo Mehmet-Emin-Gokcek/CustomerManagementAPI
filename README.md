@@ -17,7 +17,7 @@ https://customermanagementapi2.azurewebsites.net/
 
 - https://mehmetgokcek.github.io/customer-management-react-app/
 
-- React App provides a neat interface to make CRUD requests to the Customer Management REST API to provide basic CRUD operations on the customer object.
+- React App provides a neat interface to manage customer object by allowing the user to make Post/Get/Put/Delete requests to the Customer Management REST API.
 
 - Customer data persists on an SQL database server.
 
