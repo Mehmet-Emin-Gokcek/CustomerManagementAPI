@@ -3,7 +3,7 @@
 
 
 ## Live Demo at Azure Cloud
-https://customermanagementapi2.azurewebsites.net/
+https://tasktrackerapi2.azurewebsites.net/
 
 - GET Request&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;&nbsp;.../api/customers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;&nbsp;Get all customers
 - GET Request&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;&nbsp;.../api/customers/3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;&nbsp;Get a customer with Id = 3
@@ -15,9 +15,9 @@ https://customermanagementapi2.azurewebsites.net/
 
 ## Live Demo with a React web app
 
-- https://mehmetgokcek.github.io/customer-management-react-app/
+https://mehmetgokcek.github.io/task-tracker-react-app/
 
-- React App provides a neat interface to manage customer object by allowing the user to make Post/Get/Put/Delete requests to the Customer Management REST API.
+- React App provides a neat interface to manage 'task' object by allowing the user to make Post/Get/Put/Delete requests to the Task Tracker REST API.
 
 - Customer data persists on an SQL database server.
 
